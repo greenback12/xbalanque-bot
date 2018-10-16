@@ -2,6 +2,7 @@
 
 import discord
 import asyncio
+import os
 
 client = discord.Client()
 
@@ -22,4 +23,4 @@ async def on_message(message):
         await asyncio.sleep(1)
         await client.send_message(message.channel, 'FUCK')
 
-client.run(TOKEN)
+client.run(os.getenv('TOKEN'))
