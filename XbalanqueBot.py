@@ -22,4 +22,4 @@ async def on_message(message):
         await asyncio.sleep(1)
         await client.send_message(message.channel, 'FUCK')
 
-client.run('NTAxNTgxNjYzMzIzNjg0OTM0.Dqbxvg.m0l00rmnkjMrOkDUBzb1-uNetDA')
+client.run(TOKEN)
