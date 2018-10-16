@@ -25,5 +25,8 @@ async def on_message(message):
     elif content == "!attack":
         await asyncio.sleep(1)
         await client.send_message(message.channel, '@Jamie#9330 \n https://i.imgur.com/isDkwh7.jpg')
+    elif content == "!gun":
+        await asyncio.sleep(1)
+        await client.send_message(message.channel, '@Jamie#9330 \n https://i.imgur.com/wjpnFPQ.jpg')
 
 client.run(os.getenv('TOKEN'))
